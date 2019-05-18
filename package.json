@@ -1,0 +1,28 @@
+{
+  "name": "graphql-server",
+  "version": "1.0.0",
+  "description": "Simple GraphQL server",
+  "main": "server.js",
+  "scripts": {
+    "dev:server": "nodemon server.js",
+    "json:server": "json-server --watch data.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laetronaz/graphql-server.git"
+  },
+  "author": "Michel Pelland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Laetronaz/graphql-server/issues"
+  },
+  "homepage": "https://github.com/Laetronaz/graphql-server#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.17.0",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.3.0",
+    "json-server": "^0.14.2",
+    "nodemon": "^1.19.0"
+  }
+}
